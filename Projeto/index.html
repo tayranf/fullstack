@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login - Projeto Digital House" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta name="rating" content="general" />
+    <meta property="og:site_name" content="Login" />
+    <meta property="og:title" content="Login | Projeto Digital House" />
+    <title>Login | Projeto Digital House</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link
+    async defer
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+      <link rel="stylesheet"
+      type="text/css"
+      href="mobile.css"
+      media="screen and (max-width: 600px)" />
+
+
+      <link rel="stylesheet"
+      type="text/css"
+      href="form.css"
+      media="screen and (min-width: 600px) and (max-width: 900px)" />
+
+      <link rel="stylesheet"
+      type="text/css"
+      href="mobile.css"
+      media="screen and (min-width: 900px) and (max-width: 1200px)" />
+
+      <link rel="stylesheet"
+      type="text/css"
+      href="form.css"
+      media="screen and (min-width: 1200px)" />
+    </style>
+  </head>
+<body oncontextmenu='return false'>
+
+    <div class="login">
+        <h1>Logo</h1>
+        <p>Login</p>
+        <form
+        action ="home.html"
+        method="POST">
+            <label><img src="imagem/usuario.png"></i></label>
+            <input
+            class="form"
+            type="text"
+            placeholder="E-mail"
+            name="email"
+            required><br><br>
+            <label><img src="imagem/chave1.png"></label>
+            <input 
+            class="form"
+            type="password" 
+            placeholder="Senha"
+            name="senha" 
+            id="senha"
+            required>     
+            <img src="imagem/olhoAberto.png" id="olho" ondragstart="return false;">
+            <!-- <i class="fa fa-eye-slash" id="olho" style="font-size: 14px"></i> -->
+            <br><br>
+            <button type="submit">Entrar</button>
+        </form>
+        <p class=link><a href="" target="_blank">Esqueci minha senha</a> | 
+          <a href="" target="_blank">Cadastrar</a></p>
+        
+    </div>
+
+    <script
+    type="text/javascript"
+    src="form.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    color: rgba(16, 17, 17, 0.815);
+    background-repeat: no-repeat;
+    height: 98.1vh;
+    background-image: 
+    url("imagem/bg.jpg");
+    background-size:cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.login {
+    width: 300px;
+    font-size: 25px;
+    background:rgba(255, 255, 255, 0.333);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 60px 100px;
+    border-radius: 3%;
+    align-self: center;
+  }
+
+h1 {
+    text-align: center;
+    padding-bottom: 2vh;
+    text-shadow: rgb(25, 28, 39) 1px 1px 1px;
+}
+
+/* Position Relative permite que o Olho do Password sobresaia */
+form {
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: rgb(25, 28, 39) 1px 1px 1px;
+}
+input {
+    padding-left: 10px;
+}
+
+a:link {
+    color:#000000
+}
+a:visited {
+    color: #000000;
+}
+
+.link {
+    font-size: 16px;
+    text-align: center;
+}
+
+.form {
+    height: 1.8rem;
+    width: 80%;
+    border: 1px solid #000000;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 0%;
+}
+i {
+    text-shadow: rgb(25, 28, 39) 0.3px 0.3px 0.3px; 
+}
+button {
+    height: 2rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.815);
+    background-color: black;
+    text-shadow: rgb(25, 28, 39) 0.3px 0.3px 0.3px;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 5px;
+}
+button:hover {
+    background: rgb(31, 31, 31);
+    border-color: rgb(31, 31, 31);
+    transition: background-color 0.2s;
+    transition: border-color 0.2s;
+}
+
+
+/* posicionando Olho do password para dentro do input */
+
+#olho {
+    position: absolute;
+    right: 30px;
+    bottom: 4px;
+    top: 77px;
+}
